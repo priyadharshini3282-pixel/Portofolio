@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Priyadharshini G - Full Stack Developer Portfolio. 2+ years of experience in building enterprise web applications with .NET, React, Angular and more.">
+    <meta name="keywords" content="Full Stack Developer, Web Developer, .NET Developer, React Developer, Portfolio">
+    <meta name="author" content="Priyadharshini G">
+    <title>Priyadharshini G | Full Stack Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cursor Glow Effect -->
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="floating-orb orb-1"></div>
+        <div class="floating-orb orb-2"></div>
+        <div class="floating-orb orb-3"></div>
+        <div class="grid-overlay"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>Priya<span class="logo-bracket">/&gt;</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+                <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+                <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+                <li><a href="#experience" class="nav-link" data-section="experience">Experience</a></li>
+                <li><a href="#education" class="nav-link" data-section="education">Education</a></li>
+                <li><a href="#certifications" class="nav-link" data-section="certifications">Certifications</a></li>
+                <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge animate-fade-up">
+                    <span class="status-dot"></span>
+                    Available for opportunities
+                </div>
+                <h1 class="hero-title animate-fade-up" style="animation-delay: 0.1s">
+                    Hi, I'm <span class="gradient-text">Priyadharshini G</span>
+                </h1>
+                <div class="hero-typewriter animate-fade-up" style="animation-delay: 0.2s">
+                    <span class="typewriter-prefix">I'm a </span>
+                    <span class="typewriter-text" id="typewriter"></span>
+                    <span class="typewriter-cursor">|</span>
+                </div>
+                <p class="hero-description animate-fade-up" style="animation-delay: 0.3s">
+                    Full Stack Developer with 2+ years of experience crafting enterprise web applications. 
+                    Passionate about building scalable, high-quality solutions.
+                </p>
+                <div class="hero-actions animate-fade-up" style="animation-delay: 0.4s">
+                    <a href="#contact" class="btn btn-primary">
+                        <span>Get In Touch</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#experience" class="btn btn-outline">
+                        <span>View My Work</span>
+                        <i class="fas fa-briefcase"></i>
+                    </a>
+                </div>
+                <div class="hero-stats animate-fade-up" style="animation-delay: 0.5s">
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="2">0</span><span class="stat-plus">+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="10">0</span><span class="stat-plus">+</span>
+                        <span class="stat-label">Technologies</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="4">0</span><span class="stat-plus">+</span>
+                        <span class="stat-label">Certifications</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual animate-fade-up" style="animation-delay: 0.3s">
+                <div class="hero-code-card">
+                    <div class="code-header">
+                        <div class="code-dots">
+                            <span class="dot dot-red"></span>
+                            <span class="dot dot-yellow"></span>
+                            <span class="dot dot-green"></span>
+                        </div>
+                        <span class="code-title">developer.js</span>
+                    </div>
+                    <pre class="code-body"><code><span class="code-keyword">const</span> <span class="code-variable">developer</span> = {
+  <span class="code-property">name</span>: <span class="code-string">"Priyadharshini G"</span>,
+  <span class="code-property">role</span>: <span class="code-string">"Full Stack Developer"</span>,
+  <span class="code-property">skills</span>: [
+    <span class="code-string">"React"</span>, <span class="code-string">"Angular"</span>,
+    <span class="code-string">".NET MVC"</span>, <span class="code-string">"C#"</span>,
+    <span class="code-string">"SQL Server"</span>
+  ],
+  <span class="code-property">passion</span>: <span class="code-string">"Building scalable apps"</span>,
+  <span class="code-property">coffee</span>: <span class="code-boolean">true</span> <span class="code-comment">// ☕ always</span>
+};</code></pre>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator animate-fade-up" style="animation-delay: 0.7s">
+            <div class="scroll-line"></div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get to know me</span>
+                <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-content">
+                    <p class="about-text">
+                        I'm a passionate <strong>Full Stack Developer</strong> based in <strong>Tamil Nadu, India</strong>, 
+                        with over 2 years of hands-on experience in developing, maintaining, and enhancing enterprise web applications.
+                    </p>
+                    <p class="about-text">
+                        My expertise spans across <strong>full-stack development</strong>, <strong>API integration</strong>, 
+                        <strong>database management</strong>, and <strong>troubleshooting</strong>. I'm dedicated to delivering 
+                        high-quality, scalable solutions with strong problem-solving and teamwork skills.
+                    </p>
+                    <p class="about-text">
+                        Currently working as a <strong>Junior Developer</strong> at <strong>Nerida Shipping Private Limited</strong>, 
+                        where I contribute to building and refining full-stack web applications for optimal functionality.
+                    </p>
+                    <div class="about-info-grid">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <span class="info-label">Location</span>
+                                <span class="info-value">Villupuram, Tamil Nadu</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <span class="info-label">Email</span>
+                                <span class="info-value">priyadharshini3282@gmail.com</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-language"></i>
+                            <div>
+                                <span class="info-label">Languages</span>
+                                <span class="info-value">Tamil, English</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-briefcase"></i>
+                            <div>
+                                <span class="info-label">Experience</span>
+                                <span class="info-value">2+ Years</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-cards">
+                    <div class="mini-card">
+                        <div class="mini-card-icon"><i class="fas fa-code"></i></div>
+                        <h4>Full Stack Development</h4>
+                        <p>End-to-end web application development with modern frameworks</p>
+                    </div>
+                    <div class="mini-card">
+                        <div class="mini-card-icon"><i class="fas fa-plug"></i></div>
+                        <h4>API Integration</h4>
+                        <p>RESTful API development and seamless third-party integrations</p>
+                    </div>
+                    <div class="mini-card">
+                        <div class="mini-card-icon"><i class="fas fa-database"></i></div>
+                        <h4>Database Management</h4>
+                        <p>Efficient database design, optimization, and management</p>
+                    </div>
+                    <div class="mini-card">
+                        <div class="mini-card-icon"><i class="fas fa-mobile-alt"></i></div>
+                        <h4>Responsive Design</h4>
+                        <p>Pixel-perfect, mobile-first responsive web interfaces</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section section-alt" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">What I work with</span>
+                <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+            </div>
+            <div class="skills-grid">
+                <!-- Front-End -->
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon"><i class="fas fa-palette"></i></div>
+                        <h3>Front-End</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag" data-level="90">
+                            <i class="fab fa-html5"></i> HTML5
+                        </span>
+                        <span class="skill-tag" data-level="85">
+                            <i class="fab fa-css3-alt"></i> CSS3
+                        </span>
+                        <span class="skill-tag" data-level="80">
+                            <i class="fab fa-js-square"></i> JavaScript
+                        </span>
+                        <span class="skill-tag" data-level="85">
+                            <i class="fab fa-react"></i> ReactJS
+                        </span>
+                        <span class="skill-tag" data-level="80">
+                            <i class="fab fa-angular"></i> Angular
+                        </span>
+                        <span class="skill-tag" data-level="85">
+                            <i class="fab fa-bootstrap"></i> Bootstrap
+                        </span>
+                    </div>
+                </div>
+                <!-- Back-End -->
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon"><i class="fas fa-server"></i></div>
+                        <h3>Back-End</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag" data-level="85">
+                            <i class="fas fa-code"></i> C#
+                        </span>
+                        <span class="skill-tag" data-level="85">
+                            <i class="fas fa-cubes"></i> .NET MVC
+                        </span>
+                        <span class="skill-tag" data-level="80">
+                            <i class="fas fa-plug"></i> .NET Web API
+                        </span>
+                        <span class="skill-tag" data-level="80">
+                            <i class="fas fa-exchange-alt"></i> REST API
+                        </span>
+                        <span class="skill-tag" data-level="85">
+                            <i class="fas fa-database"></i> SQL Server
+                        </span>
+                    </div>
+                </div>
+                <!-- Tools -->
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon"><i class="fas fa-tools"></i></div>
+                        <h3>Tools & Platforms</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag" data-level="85">
+                            <i class="fab fa-git-alt"></i> Git & GitHub
+                        </span>
+                        <span class="skill-tag" data-level="85">
+                            <i class="fas fa-laptop-code"></i> Visual Studio
+                        </span>
+                        <span class="skill-tag" data-level="80">
+                            <i class="fas fa-paper-plane"></i> Postman
+                        </span>
+                    </div>
+                </div>
+                <!-- Soft Skills -->
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon"><i class="fas fa-brain"></i></div>
+                        <h3>Core Competencies</h3>
+                    </div>
+                    <div class="skill-tags soft-skills">
+                        <span class="skill-tag">
+                            <i class="fas fa-rocket"></i> Performance Optimization
+                        </span>
+                        <span class="skill-tag">
+                            <i class="fas fa-bug"></i> Debugging
+                        </span>
+                        <span class="skill-tag">
+                            <i class="fas fa-users"></i> Team Collaboration
+                        </span>
+                        <span class="skill-tag">
+                            <i class="fas fa-sync-alt"></i> Agile Development
+                        </span>
+                        <span class="skill-tag">
+                            <i class="fas fa-puzzle-piece"></i> Problem Solving
+                        </span>
+                        <span class="skill-tag">
+                            <i class="fas fa-lightbulb"></i> Quick Learning
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Where I've worked</span>
+                <h2 class="section-title">Work <span class="gradient-text">Experience</span></h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="timeline-dot">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-card">
+                            <div class="timeline-card-header">
+                                <div>
+                                    <h3 class="timeline-title">Junior Developer</h3>
+                                    <p class="timeline-company">
+                                        <i class="fas fa-building"></i> Nerida Shipping Private Limited
+                                    </p>
+                                </div>
+                                <div class="timeline-meta">
+                                    <span class="timeline-badge current">
+                                        <i class="fas fa-circle"></i> Current
+                                    </span>
+                                    <span class="timeline-date">
+                                        <i class="fas fa-calendar-alt"></i> 2023 – Present
+                                    </span>
+                                    <span class="timeline-location">
+                                        <i class="fas fa-map-marker-alt"></i> Chennai
+                                    </span>
+                                </div>
+                            </div>
+                            <ul class="timeline-details">
+                                <li>
+                                    <i class="fas fa-chevron-right"></i>
+                                    Assisted in the design, development, and maintenance of full-stack web applications, ensuring efficient, scalable, and user-friendly solutions.
+                                </li>
+                                <li>
+                                    <i class="fas fa-chevron-right"></i>
+                                    Contributed to testing, debugging, and refining full-stack web applications for optimal functionality.
+                                </li>
+                                <li>
+                                    <i class="fas fa-chevron-right"></i>
+                                    Collaborated with teams on project delivery and client requirements.
+                                </li>
+                            </ul>
+                            <div class="timeline-tech">
+                                <span>.NET MVC</span>
+                                <span>C#</span>
+                                <span>ReactJS</span>
+                                <span>Angular</span>
+                                <span>SQL Server</span>
+                                <span>REST API</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section section-alt" id="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">My academic journey</span>
+                <h2 class="section-title">Education <span class="gradient-text">Background</span></h2>
+            </div>
+            <div class="education-grid">
+                <div class="edu-card">
+                    <div class="edu-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="edu-content">
+                        <div class="edu-year">2021 – 2023</div>
+                        <h3 class="edu-degree">M.Sc. Computer Science</h3>
+                        <p class="edu-university">
+                            <i class="fas fa-university"></i> Annamalai University
+                        </p>
+                        <div class="edu-score">
+                            <div class="score-bar">
+                                <div class="score-fill" data-score="84.2"></div>
+                            </div>
+                            <span class="score-text">84.2%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="edu-card">
+                    <div class="edu-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="edu-content">
+                        <div class="edu-year">2018 – 2021</div>
+                        <h3 class="edu-degree">B.Sc. Computer Science</h3>
+                        <p class="edu-university">
+                            <i class="fas fa-university"></i> Thiruvallur University
+                        </p>
+                        <div class="edu-score">
+                            <div class="score-bar">
+                                <div class="score-fill" data-score="86"></div>
+                            </div>
+                            <span class="score-text">86%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="section" id="certifications">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Continuous learning</span>
+                <h2 class="section-title">Certifications & <span class="gradient-text">Training</span></h2>
+            </div>
+            <div class="cert-grid">
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Python Programming</h3>
+                        <p class="cert-org">ID Tech Solutions Pvt Ltd</p>
+                        <span class="cert-badge">
+                            <i class="fas fa-certificate"></i> Certified – 1 Year Course
+                        </span>
+                    </div>
+                    <div class="cert-glow"></div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>.NET Programming</h3>
+                        <p class="cert-org">BESANT Technologies</p>
+                        <span class="cert-badge">
+                            <i class="fas fa-certificate"></i> Certified – 6 Month Course
+                        </span>
+                    </div>
+                    <div class="cert-glow"></div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>ReactJS Development</h3>
+                        <p class="cert-org">DP Codes</p>
+                        <span class="cert-badge">
+                            <i class="fas fa-certificate"></i> Certified
+                        </span>
+                    </div>
+                    <div class="cert-glow"></div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Full-Stack Web Development</h3>
+                        <p class="cert-org">Live Projects</p>
+                        <span class="cert-badge">
+                            <i class="fas fa-spinner"></i> In Progress – MVC, React, Angular
+                        </span>
+                    </div>
+                    <div class="cert-glow"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section section-alt" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Let's connect</span>
+                <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+                <p class="section-subtitle">Feel free to reach out for collaborations, opportunities, or just a friendly chat!</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:priyadharshini3282@gmail.com">priyadharshini3282@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <a href="tel:+919489453282">+91 9489453282</a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Villupuram, Tamil Nadu, 605602</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <a href="https://linkedin.com/in/priyadharshini-g-737396334" target="_blank" rel="noopener noreferrer">Connect on LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="formName" name="name" placeholder=" " required>
+                            <label for="formName">Your Name</label>
+                            <span class="form-highlight"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="formEmail" name="email" placeholder=" " required>
+                            <label for="formEmail">Your Email</label>
+                            <span class="form-highlight"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="formSubject" name="subject" placeholder=" " required>
+                            <label for="formSubject">Subject</label>
+                            <span class="form-highlight"></span>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="formMessage" name="message" rows="5" placeholder=" " required></textarea>
+                            <label for="formMessage">Your Message</label>
+                            <span class="form-highlight"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-bracket">&lt;</span>Priya<span class="logo-bracket">/&gt;</span>
+                </div>
+                <div class="footer-social">
+                    <a href="mailto:priyadharshini3282@gmail.com" class="social-link" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="tel:+919489453282" class="social-link" aria-label="Phone">
+                        <i class="fas fa-phone-alt"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/priyadharshini-g-737396334" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                <p class="footer-text">
+                    &copy; 2026 Priyadharshini G. Crafted with <i class="fas fa-heart" style="color: var(--accent-pink);"></i> and code.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
